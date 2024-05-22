@@ -96,7 +96,7 @@ class Data():
         if return_ :
             return Papers
         
-i = random.randint(0,len(df-1))
+i = random.randint(0,len(df)-1)
 A = Data(df=df,Stats=Stats)
 Open_Alex_ID= df['id'][i]
 A.Get_Works(Open_Alex_ID= Open_Alex_ID,return_= False, Show=True)
